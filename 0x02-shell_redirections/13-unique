@@ -1,2 +1,2 @@
 #!/bin/bash
-sort list | uniq -u
+ls --format=single-column -1 | sort | uniq -u
